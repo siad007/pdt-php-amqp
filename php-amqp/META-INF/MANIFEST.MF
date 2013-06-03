@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Php-amqp
+Bundle-SymbolicName: php-amqp;singleton:=true
+Bundle-Version: 1.0.1
+Bundle-Activator: de.mehralsnix.php.amqp.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.php;bundle-version="3.0.1",
+ org.eclipse.php.core;bundle-version="3.1.1",
+ org.eclipse.dltk;bundle-version="4.0.0",
+ org.eclipse.dltk.core;bundle-version="4.0.0"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Vendor: mehralsnix
