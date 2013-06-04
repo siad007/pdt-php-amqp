@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
    <feature url="features/de.mehralsnix.php_amqp.feature_1.0.0.jar" id="de.mehralsnix.php_amqp.feature" version="1.0.0">
-      <category name="code_completion"/>
+      <category name="mehralsnix"/>
    </feature>
-   <category-def name="code_completion" label="Code Completion"/>
+   <category-def name="mehralsnix" label="Code Completion"/>
 </site>
