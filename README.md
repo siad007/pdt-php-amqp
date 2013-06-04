@@ -1,4 +1,4 @@
 pdt-php-amqp
 ============
 
-Plugin for Eclipse PDT 3 to make code-completition for php-amqp extension available.
+Plugin for Eclipse PDT 3. Code Completion for php-amqp extension.
