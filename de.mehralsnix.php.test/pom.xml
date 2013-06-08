@@ -39,7 +39,7 @@
         </property>
       </activation>
       <build>
-        <pluginmanagement>
+        <pluginManagement>
           <plugins>
             <plugin>
               <groupId>org.eclipse.tycho</groupId>
@@ -50,7 +50,7 @@
               </configuration>
             </plugin>
           </plugins>
-        </pluginmanagement>
+        </pluginManagement>
       </build>
     </profile>
   </profiles>
