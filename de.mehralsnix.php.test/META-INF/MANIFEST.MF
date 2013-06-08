@@ -6,4 +6,6 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: https://github.com/siad007
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: org.junit,
+ org.eclipse.dltk.core.tests,
+ org.eclipse.php.core.tests,
  org.apache.commons.lang
