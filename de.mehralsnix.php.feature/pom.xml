@@ -7,7 +7,7 @@
   <parent>
     <groupId>de.mehralsnix.php</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.0-qualifier</version>
+    <version>1.0.0.qualifier</version>
   </parent>
 
   <artifactId>de.mehralsnix.php.feature</artifactId>
