@@ -6,6 +6,11 @@
   <artifactId>parent</artifactId>
   <version>1.0.0.qualifier</version>
   <packaging>pom</packaging>
+  
+  <prerequisites>
+    <maven>3.0</maven>
+  </prerequisites>
+  
   <modules>
     <module>de.mehralsnix.php.amqp</module>
     <module>de.mehralsnix.php.com_dotnet</module>
@@ -15,13 +20,24 @@
 
   <properties>
     <tycho-version>0.17.0</tycho-version>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <repositories>
     <repository>
-      <id>indigo</id>
+      <id>dltk</id>
       <layout>p2</layout>
-      <url>http://download.eclipse.org/releases/indigo</url>
+      <url>https://hudson.eclipse.org/hudson/job/dltk-nightly/lastSuccessfulBuild/artifact/org.eclipse.dltk.releng/build/update.site/target/site/</url>
+    </repository>
+    <repository>
+      <id>kepler</id>
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/releases/kepler</url>
+    </repository>
+    <repository>
+      <id>pdt-nightly</id>
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/tools/pdt/updates/3.2-nightly/</url>
     </repository>
   </repositories>
 
