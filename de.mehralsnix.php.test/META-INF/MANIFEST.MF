@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Test
+Bundle-SymbolicName: de.mehralsnix.php.test
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: https://github.com/pulse00
+Fragment-Host: de.mehralsnix.php.amqp;bundle-version="0.0.1"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.junit,
+ org.eclipse.dltk.core.tests,
+ org.eclipse.php.core.tests,
+ org.apache.commons.lang
