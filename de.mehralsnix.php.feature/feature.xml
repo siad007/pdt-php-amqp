@@ -2,7 +2,7 @@
 <feature
       id="de.mehralsnix.php.feature"
       label="Code Assets"
-      version="1.0.1"
+      version="1.0.0.qualifier"
       provider-name="Siad Ardroumli">
 
    <description url="http://siad007.github.io/pdt-php-amqp">
