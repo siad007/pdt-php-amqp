@@ -1,0 +1,17 @@
+--TEST--
+Should complete AMQP methods
+--FILE--
+<?
+namespace NS;
+class SomeWhere
+{
+    public function someAction()
+    {
+        $repo = $doctrine->getRepository('AcmeDemoBundle:Book');
+        $repo->|
+    }
+}
+?>
+--EXPECT--
+method(listNewestBooks)
+method(deleteBook)

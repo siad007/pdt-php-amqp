@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/de.mehralsnix.php_amqp.feature_1.0.1.jar" id="de.mehralsnix.php_amqp.feature" version="1.0.1">
+      <category name="code_completion"/>
+   </feature>
+   <category-def name="code_completion" label="Code Completion">
+      <description>
+         Adds no standard modules to the PHP Language Library.
+      </description>
+   </category-def>
+</site>
